@@ -12,7 +12,7 @@ if "hcb" in prompt.lower():
 elif "blueprint" in prompt.lower():
     print("debt... debt... DEBT")
 
-elif "jay dont" or "jay don't" in prompt.lower():
+elif "jay dont" in prompt.lower() or "jay don't" in prompt.lower():
     print("Leo taught me how to mute that")
 
 elif "unc" in prompt.lower():
