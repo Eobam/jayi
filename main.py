@@ -1,25 +1,29 @@
 import random
+import time
 
-prompt = input("Talk to Jay")
+print("This in no way shape or form is supposed to make fun of, or hurt Jay (jay is the East Coast RM if you didn't know btw.)")
 
-random_responses = [":neocat-floof-explode:", "yep", "ok got it", "oo", "hehe", "LMAO", "oop why?", "bruh" ]
-
-
-if "hcb" in prompt.lower():
-    print("hmm, i'll talk to alfie")
+time.sleep(1)
 
 
-elif "blueprint" in prompt.lower():
-    print("debt... debt... DEBT")
+random_responses = [":neocat-floof-explode:", "yep", "ok got it", "oo", "hehe", "LMAO", "oop why?", "bruh", "ik ik", "LOL", "ayyy", "lmao" ]
 
-elif "jay dont" in prompt.lower() or "jay don't" in prompt.lower():
-    print("Leo taught me how to mute that")
+if __name__ == "__main__":
+    for i in "iiiiiiiiiiiiiiiiiiiiiiiiii":
+        prompt = input("Talk to Jay")
 
-elif "unc" in prompt.lower():
-    print("i'm not dev sob")
-
-else:
-    print(random.choice(random_responses))
-    
+        if "hcb" in prompt.lower():
+            print("hmm, i'll talk to alfie")
 
 
+        elif "blueprint" in prompt.lower():
+            print("debt... debt... DEBT")
+
+        elif "jay dont" in prompt.lower() or "jay don't" in prompt.lower():
+            print("Leo taught me how to mute that")
+
+        elif "unc" in prompt.lower():
+            print("i'm not dev sob")
+
+        else:
+            print(random.choice(random_responses))
