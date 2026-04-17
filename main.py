@@ -8,10 +8,12 @@ random_responses = [":neocat-floof-explode:", "yep", "ok got it", "oo", "hehe", 
 if "hcb" in prompt.lower():
     print("hmm, i'll talk to alfie")
 
-elif prompt == prompt:
-    print(random.choice(random_responses))
-    
+
 elif "blueprint" in prompt.lower:
     print("debt... debt... DEBT")
+
+else:
+    print(random.choice(random_responses))
+    
 
 
